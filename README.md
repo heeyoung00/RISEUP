@@ -1,8 +1,14 @@
-# React + Vite
+# RISE UP
+> 2024 삼육대학교 천보축전 안내 페이지
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="./src/assets/FestivalMain.jpg" alt="삼육대학교 축제 RISE UP 메인" width="100%" />
+</p>
 
-Currently, two official plugins are available:
+## 기술 스택 & 도구
+- **Frontend:** React
+- **Design:** Figma
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 역할
+- **프론트엔드 개발** 
+
