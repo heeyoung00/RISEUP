@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('./fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../fonts/Pretendard-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('../fonts/Pretendard-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('../fonts/Pretendard-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('../fonts/Pretendard-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+
+.purposehistory_container{
+  padding-top: 120px; /* 메뉴의 높이와 같은 값 */
+  margin: 0 auto;
+  width: 360px;
+  height: 880px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Pretendard-Regular';
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.light_img1 img,.light_img2 img{
+  /* 색상 반전 방지 */
+  filter: invert(0);
+  width: 55px;
+  height: 55px;
+  transform: translateX(-10px);
+}
+
+
+.purpose_container{
+  width: 323px;
+  margin-bottom: 20px;
+}
+
+.purpose_title{
+  color: #E3FF72;
+  font-family:'Montserrat-Bold';
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 10px;
+  line-height: 29.26px;
+}
+
+.purpose_contents,.history_contents{
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: left;
+}
+
+.history_container{
+  margin-top: 20px;
+}
+.highlight1{
+  font-family:'Pretendard-Regular';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.32px;
+  text-align: left;  
+  color: #E3FF72;
+}
+
+.history_title{
+  font-family:'Montserrat-Bold';
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #81B8FF;
+}
+
+.history_contents{
+  margin-bottom: 30px;
+}

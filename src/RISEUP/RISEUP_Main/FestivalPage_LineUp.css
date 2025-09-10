@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased; /* 추가 */
+}
+
+.RiseUp_LineUp {
+    padding-top: 120px; /* 메뉴의 높이와 같은 값 */
+    margin: 0 auto;
+    width: 360px;
+    height: 1196px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    background-image: url("./FestivalPageImg/LineUp_BackgroundImg.png");
+    background-size: 360px, 1196px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.RiseUp_LineUp_Title {
+    font-family: 'Montserrat-Bold';
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 63px;
+    margin-bottom: 20px;
+}
+
+.RiseUp_LineUp_Dynamicduo,
+.RiseUp_LineUp_Park,
+.RiseUp_LineUp_Kino,
+.RiseUp_LineUp_moosong {
+    width: 310px;
+    height: 220px;
+    margin-top: 30px;
+}
+
+.RiseUp_LineUp_Dynamicduo img,
+.RiseUp_LineUp_Park img,
+.RiseUp_LineUp_Kino img,
+.RiseUp_LineUp_moosong img {
+    width: 310px;
+    height: 220px;
+}

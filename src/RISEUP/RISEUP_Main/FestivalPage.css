@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('../fonts/Pretendard-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../fonts/Pretendard-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; /* 추가 */
+}
+
+.RiseUp_main_container {
+  margin: 0 auto;
+  width: 360px;
+  height: 790px;
+  text-align: center;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./FestivalPageImg/RISEUP.png");
+  background-size: 360px 755.81px;
+  background-position: center 20px;
+  background-repeat: no-repeat;
+}
+
+.Riseup_main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+  padding-top: 33px;
+}
+
+.Riseup_main_header_Left {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.Riseup_main_header_2024,
+.Riseup_main_header_2024 img {
+  width: 58px;
+  height: auto;
+}
+
+.Riseup_main_header_Test {
+  font-family: 'Montserrat-SemiBold';
+  color: #FFFFFF;
+  font-weight: 600;
+
+  text-align: left;
+  font-size: 12px;
+  line-height: 17.2px;
+  letter-spacing: 2.76px;
+   /* 추가: 웹킷 기반의 폰트 스무딩 적용 */
+   -webkit-font-smoothing: antialiased; /* 맥OS 및 iOS Safari에서 */
+   -moz-osx-font-smoothing: grayscale; /* MacOS Firefox에서 */
+}
+
+.Riseup_main_header_Dawn,
+.Riseup_main_header_Dawn img {
+  width: 37px;
+  height: auto;
+}
+
+.Riseup_main_Title {
+  width: 300px;
+  height: 202.35px;
+  position: absolute;
+  margin-top: 445px;
+}
+
+.Riseup_main_Title img {
+  width: 300px;
+  height: 202.35px;
+}
+
+.Riseup_main_SubTitle {
+  color: #FFFFFF;
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
+
+  font-size: 18px;
+  text-align: center;
+  margin-top: 14.65px;
+}
+
+.Riseup_main_SubContents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 14px;
+}
+
+.Riseup_main_committee {
+  color: #FFFFFF;
+  font-family: 'Pretendard-Regular';
+  font-weight: 400;
+  font-size: 12px;
+  text-align: right;
+}
+
+.Riseup_main_cross,
+.Riseup_main_cross img {
+  width: 14px;
+  height: auto;
+}
+
+.Riseup_main_LikeLion12th {
+  color: #FFFFFF;
+  font-family: 'Pretendard-Regular';
+  font-weight: 400;
+
+  font-size: 12.2px;
+  text-align: left;
+}

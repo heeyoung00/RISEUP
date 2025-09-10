@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('../fonts/Pretendard-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('../fonts/Pretendard-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('../fonts/Pretendard-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased; /* 추가 */
+
+}
+
+.RiseUp_TimeTable {
+    padding-top: 120px; /* 메뉴의 높이와 같은 값 */
+    margin: 0 auto;
+    width: 360px;
+    height: 1686px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    background-image: url("./FestivalPageImg/TimeTable_Background.png");
+    background-size: 360px, 1619.07px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.RiseUp_TimeTable_Title {
+    margin-top: 44px;
+    font-family: 'Montserrat-Bold';
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 700;
+     /* 추가: 웹킷 기반의 폰트 스무딩 적용 */
+  -webkit-font-smoothing: antialiased; /* 맥OS 및 iOS Safari에서 */
+  -moz-osx-font-smoothing: grayscale; /* MacOS Firefox에서 */
+}
+
+.RiseUp_TimeTable_Booth {
+    position: relative;
+    font-family: 'Pretendard-Bold';
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 35px;
+    font-weight: 700;
+    width: 310px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A0C1FF0D;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+     /* 추가: 웹킷 기반의 폰트 스무딩 적용 */
+  -webkit-font-smoothing: antialiased; /* 맥OS 및 iOS Safari에서 */
+  -moz-osx-font-smoothing: grayscale; /* MacOS Firefox에서 */
+}
+
+/* 그라데이션 보더 효과를 추가하는 가상 요소 <-- gpt 코드 얘는 뭔지 몰랐었다.*/
+.RiseUp_TimeTable_Booth::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    padding: 1px;
+    /* 보더 두께 */
+    background: linear-gradient(to bottom right, #FFFFFF6B, #ECF0FB0F, #FFFFFF01, #FFFFFF00);
+    mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    /* 내부 배경을 가리지 않도록 마스크 */
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+
+.RiseUp_TimeTable_Booth p {
+    margin-top: 38px;
+    margin-bottom: 27px;
+}
+
+.RiseUp_TimeTable_BoothItem {
+    width: 252px;
+    font-family: 'Pretendard-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    gap: 48px;
+
+     /* 추가: 웹킷 기반의 폰트 스무딩 적용 */
+  -webkit-font-smoothing: antialiased; /* 맥OS 및 iOS Safari에서 */
+  -moz-osx-font-smoothing: grayscale; /* MacOS Firefox에서 */
+}
+
+.RiseUp_TimeTable_BoothItemDivder {
+    width: 252px;
+    height: 1px;
+    background-color: #949494;
+    margin: 13px 0;
+    /* 위아래 13px의 간격 */
+}
+
+.RiseUp_TimeTable_Map1 {
+    width: 285px;
+    height: 164px;
+    margin-top: 25px;
+    border-radius: 16px;
+
+    -webkit-border-radius: 16px;
+    -webkit-margin-top: 25px; /* iOS에서 정확한 적용을 위해 */
+}
+
+.RiseUp_TimeTable_Map1 img {
+    width: 285px;
+    height: 164px;
+}
+
+.RiseUp_TimeTable_Event {
+    position: relative;
+    font-family: 'Pretendard-Bold';
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    width: 310px;
+    height: 1120px;
+    -webkit-height:1120px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A0C1FF0D;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+
+     /* 추가: 웹킷 기반의 폰트 스무딩 적용 */
+  -webkit-font-smoothing: antialiased; /* 맥OS 및 iOS Safari에서 */
+  -moz-osx-font-smoothing: grayscale; /* MacOS Firefox에서 */
+}
+
+/* 그라데이션 보더 효과를 추가하는 가상 요소 <-- gpt 코드 얘는 뭔지 몰랐었다.*/
+.RiseUp_TimeTable_Event::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    padding: 1px;
+    /* 보더 두께 */
+    background: linear-gradient(to bottom right, #FFFFFF6B, #ECF0FB0F, #FFFFFF01, #FFFFFF00);
+    mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    /* 내부 배경을 가리지 않도록 마스크 */
+    mask-composite: exclude;
+    z-index: -1;
+}
+.RiseUp_TimeTable_Event p {
+    margin-top: 41px;
+    margin-bottom: 35px;
+}
+
+.RiseUp_TimeTable_EventItem{
+    width: 252px;
+    font-family: 'Pretendard-Medium';
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    gap: 50px;
+
+     /* 추가: 웹킷 기반의 폰트 스무딩 적용 */
+  -webkit-font-smoothing: antialiased; /* 맥OS 및 iOS Safari에서 */
+  -moz-osx-font-smoothing: grayscale; /* MacOS Firefox에서 */
+}
+
+.RiseUp_TimeTable_EventTime {
+    width: 88px;
+}
+
+.RiseUp_TimeTable_EventDescription {
+    width: 105px;
+}
+
+.highlight {
+    color: #E3FF72;
+}
+
+.RiseUp_TimeTable_EventItemDivder {
+    width: 252px;
+    height: 1px;
+    background-color: #949494;
+    margin: 13px 0;
+    /* 위아래 13px의 간격 */
+}
+
+.RiseUp_TimeTable_Map2 {
+    margin-top: 25px;
+    border-radius: 16px;
+    /* iOS에서의 호환성 향상을 위한 -webkit- 추가 */
+    -webkit-border-radius: 16px;
+    -webkit-margin-top: 25px; /* iOS에서 정확한 적용을 위해 */
+}
+
+.RiseUp_TimeTable_Map2 img {
+    width: 285px;
+    height: 164px;
+}
