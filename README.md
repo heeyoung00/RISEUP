@@ -12,3 +12,5 @@
 ## 역할
 - **프론트엔드 개발** 
 
+<br/>
+<p align="left"> <a href="https://riseup-93x224p5x-simheeyoungs-projects.vercel.app/"><strong>RISE UP 바로가기</strong></a> </p>
